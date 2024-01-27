@@ -45,4 +45,5 @@ else:
     # Tax for the remaining income above 20000
     tax_payable += (income - 20000) * 0.20
 
-    
+# Display the total tax to pay
+print("Total tax to pay is:", tax_payable)
