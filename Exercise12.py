@@ -38,3 +38,7 @@ elif income <= 20000:
 else:
     # Calculate tax for income above 20000
     tax_payable = 0
+    
+    # Tax for the first 10000
+    tax_payable += 10000 * 0.10
+    
