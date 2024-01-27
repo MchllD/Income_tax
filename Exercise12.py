@@ -25,3 +25,9 @@ tax_payable = 0
 
 # Display the given income
 print ("Given income:", income)
+
+
+# Check income ranges and calculate tax payable accordingly
+if income <= 10000:
+    # No tax if income is up to 10000
+    tax_payable = 0
