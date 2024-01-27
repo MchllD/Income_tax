@@ -31,3 +31,7 @@ print ("Given income:", income)
 if income <= 10000:
     # No tax if income is up to 10000
     tax_payable = 0
+elif income <= 20000:
+    # Calculate tax for income between 10001 and 20000
+    x = income - 10000
+    tax_payable = x * 0.10
