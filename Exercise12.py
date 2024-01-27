@@ -16,3 +16,12 @@
 # # Tax for the first 10000
 # Tax for the remaining income above 20000
 # Display the total tax to pay
+
+# -------------------------------------- actual code -------------------------------------------------------
+
+# Set initial values
+income = 45000
+tax_payable = 0
+
+# Display the given income
+print ("Given income:", income)
